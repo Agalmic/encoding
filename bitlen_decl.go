@@ -1,5 +1,6 @@
+//go:build !gccgo && (386 || arm)
 // +build !gccgo
-// +build amd64 386 arm
+// +build 386 arm
 
 package encoding
 
